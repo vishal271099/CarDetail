@@ -7,3 +7,4 @@ Here i am using most of BE functionalities like
 5. Custom ordering on fields
 6. Export API of existing API
 7. Export functionality from admin side
+8. Email task using celery

@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'static/css/index.css' %}">
+    <title>Sending emails to user in Python</title>
+    <style>
+    .container{
+        height: 300px;
+        width: 900px;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: red;
+        text-align: left;
+        background-color: aqua;
+        margin: px;
+    
+}
+    .container2{
+        padding-top: 1px;
+        height: 40px;
+        width: 820px;
+        background-color: lightblue;
+        color: #000;
+
+
+    }
+    .container1{
+        height: 200px;
+        width: 790px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: cadetblue;
+        color: black;
+    }
+    .div1{
+
+  background-color: lightblue;
+
+}
+    
+    </style>
+  </head>
+  <body>
+    Hello {{user}},
+
+    <p>Thank You for Registration</p>
+   
+   
+    <div class="container">
+        <center>
+            <div class="container2">
+            <p>Descritpion</p>
+        </div>
+        </center>
+        <br>
+        <center>
+        <div class="container1">
+            <p> Thanks</p>
+            <p>My name is {{ first_name }}</p>
+            <p>My sirname is {{ last_name }}</p>
+            <p>My name is {{ first_name }}</p>
+        </div>
+        </center>
+    </div>
+   
+   
+
+    
+    
+      
+    </div>
+  </body>
+</html>
